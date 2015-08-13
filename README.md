@@ -12,7 +12,7 @@ This package is made by Hamza Ouaghad, and is licensed under the MIT license.
 Via Composer
 
 ``` bash
-$ composer require hamzaouaghad/ProArtisan
+$ composer require hamzaouaghad/proArtisan
 ```
 
 ## Usage
