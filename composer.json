@@ -1,0 +1,49 @@
+{
+    "name": "hamzaouaghad/ProArtisan",
+    "description": "A tiny laravel package that runs artisan commands in production, specifically made for people who do not necessarily have access to SSH and still need to run migrations for instance.",
+    "keywords": [
+        "hamza",
+        "ouaghad",
+        "hamzaouaghad",
+        "ProArtisan",
+        "artisan",
+        "production",
+        "artisan-in-production",
+        "migrations",
+    ],
+    "homepage": "https://github.com/HOuaghad/ProArtisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamza Ouaghad",
+            "email": "ouaghad.hamza@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hamzaouaghad\\ProArtisan\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hamzaouaghad\\ProArtisan\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
