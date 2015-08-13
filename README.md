@@ -25,7 +25,7 @@ Add the service provider to your list of service providers
 ```php
 
 'providers' => [
-        'Hamzaouaghad\Proartisan\ProartisanServiceProvider',
+        Hamzaouaghad\Proartisan\ProArtisanServiceProvider::class,
         ];
 ```
 
