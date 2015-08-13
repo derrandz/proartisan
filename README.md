@@ -22,7 +22,7 @@ $ composer require hamzaouaghad/proartisan
 
 Add the service provider to your list of service providers
 
-``php
+```php
 
 'providers' => [
         'Hamzaouaghad\Proartisan\ProartisanServiceProvider',
