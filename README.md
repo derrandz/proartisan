@@ -1,11 +1,10 @@
 # ProArtisan (Production Artisan)
 ### A laravel 5 Web Interface for Artisan
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Latest Version on Packagist][ico-version]][https://packagist.org/packages/hamzaouaghad/proartisan]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+[![Build Status][ico-travis]][stable]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 A tiny laravel package that runs artisan commands in production, specifically made for people who do not necessarily have access to SSH and still need to run migrations for instance.
