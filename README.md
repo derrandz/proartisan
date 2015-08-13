@@ -14,7 +14,7 @@ This package is made by Hamza Ouaghad, and is licensed under the MIT license.
 Via Composer
 
 ``` bash
-$ composer require hamzaouaghad/proArtisan
+$ composer require hamzaouaghad/proartisan
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ Add the service provider to your list of service providers
 
 Then run  :
 
- 
+
 ``` bash
 $ composer dumpautoload
 $ php artisan vendor:publish
