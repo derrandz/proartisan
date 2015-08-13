@@ -9,7 +9,7 @@
         "artisan",
         "production",
         "artisan-in-production",
-        "migrations",
+        "migrations"
     ],
     "homepage": "https://github.com/HOuaghad/ProArtisan",
     "license": "MIT",
