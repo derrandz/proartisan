@@ -19,6 +19,19 @@ $ composer require hamzaouaghad/proArtisan
 
 ## Usage
 
+
+Add the service provider to your list of service providers
+
+``php
+
+'providers' => [
+        'Hamzaouaghad\Proartisan\ProartisanServiceProvider',
+        ];
+```
+
+Then run  :
+
+ 
 ``` bash
 $ composer dumpautoload
 $ php artisan vendor:publish
