@@ -1,6 +1,6 @@
 <?php
 
-namespace Hamzaouaghad\ProArtisan\Http\Controllers;
+namespace Hamzaouaghad\Proartisan\Http\Controllers;
 
 use Illuminate\Http\Request;
 

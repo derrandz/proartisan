@@ -27,7 +27,7 @@ class ProArtisanServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
-        $router->group(['namespace' => 'Hamzaouaghad\ProArtisan\Http\Controllers'], function($router)
+        $router->group(['namespace' => 'Hamzaouaghad\Proartisan\Http\Controllers'], function($router)
         {
             require __DIR__.'/Http/routes.php';
         });
