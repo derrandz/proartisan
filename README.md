@@ -5,6 +5,8 @@
 
 A tiny laravel package that runs artisan commands in production, specifically made for people who do not necessarily have access to SSH and still need to run migrations for instance.
 
+This package comes with a link to one page, in wish you specify the command you want to run, also the arguments, and receive the output in a textarea in case you ever wanted to copy the content.
+
 This package is made by Hamza Ouaghad, and is licensed under the MIT license.
 
 ## Install
